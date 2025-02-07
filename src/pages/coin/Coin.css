@@ -1,0 +1,9 @@
+.coin-container {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .coin-container {
+      flex-direction: column;
+    }
+  }
