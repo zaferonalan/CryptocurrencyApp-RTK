@@ -1,8 +1,11 @@
+import CoinChart from '../../components/coinChart/CoinChart'
 import './Coin.css'
 
 const Coin = () => {
   return (
-    <div>Coin</div>
+    <div className='coin-container'>
+      <CoinChart/>
+    </div>
   )
 }
 
